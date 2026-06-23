@@ -4,7 +4,7 @@
 [![PyTorch](https://img.shields.io/badge/pytorch-2.2-ee4c2c.svg)](https://pytorch.org/)
 [![CUDA](https://img.shields.io/badge/cuda-12.2-76B900.svg)](https://developer.nvidia.com/cuda-toolkit)
 [![License](https://img.shields.io/badge/license-see%20below-lightgrey.svg)](#license-and-release-terms)
-[![Paper](https://img.shields.io/badge/paper-accepted%20%40%20SECRYPT%202026-b31b1b.svg)](#paper)
+[![Paper](https://img.shields.io/badge/paper-ACCEPTED%20%40%20SECRYPT%202026-b31b1b.svg)](#paper)
 [![ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-v16.0-FC4C02.svg)](https://attack.mitre.org/)
 
 A hybrid LSTM–Markov framework for **forecasting multi-stage adversary progressions** against the MITRE ATT&CK framework. Learns technique-to-technique transition patterns from 4,849 ATT&CK-mapped campaign chains (long-range dependencies via a 2-layer LSTM) and 8,437 operational intrusion flows (short-range priors via a first-order Markov model), then uses constrained beam search to synthesize plausible forward attack paths from observed prefixes. A formally defined risk scoring model integrates per-technique likelihood (EPSS + CAPEC + LSTM confidence + CISA KEV), detectability (D3FEND coverage), and OCTAVE-based organizational impact into a continuous 0–10 severity scale.
