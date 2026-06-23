@@ -13,7 +13,7 @@ A hybrid LSTM–Markov framework for **forecasting multi-stage adversary progres
 
 Supports the paper:
 
-> **Raj, M.**, Kul, G., Bastian, N. D., Fiondella, L. *MITRE ATT&CK-based Attack Chain Prediction using Hybrid LSTM-Markov Models for Cyber Risk Assessment.* Under review at SECRYPT 2026.
+> **Raj, M.**, Kul, G., Bastian, N. D., Fiondella, L. *MITRE ATT&CK-based Attack Chain Prediction using Hybrid LSTM-Markov Models for Cyber Risk Assessment.* ACCEPTED at SECRYPT 2026.
 
 ## The shift from reactive to predictive
 
